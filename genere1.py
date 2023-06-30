@@ -18,7 +18,7 @@ selected_questions = random.sample(questions, num_questions)
 
 
 with open ('sujet.txt', 'w') as file :
-    file.write("Sujet d'examen :\n")
+    file.write("EVALUATION :\n")
     for i, question in enumerate(selected_questions):
       file.write(f"{i+1}. {question[0]}\n")
 
